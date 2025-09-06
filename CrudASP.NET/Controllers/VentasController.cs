@@ -10,6 +10,7 @@ using CrudASP.NET.Models;
 
 namespace CrudASP.NET.Controllers
 {
+    [Authorize]
     public class VentasController : Controller
     {
         private BitacoraMvcDbEntities db = new BitacoraMvcDbEntities();
